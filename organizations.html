@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore mountaineering organizations and discover their geographic locations.">
+  <meta name="theme-color" content="#101d2c">
+  <title>Organizations | Alpine Ascents</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' integrity='sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=' crossorigin=''>
+</head>
+<body>
+<div id="siteHeader"></div>
+<main>
+<section class="page-hero" style="--page-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=90')"><div class="container"><p class="eyebrow">MOUNTAINEERING / 07</p><h1>BETTER<br><span>TOGETHER</span></h1><p>Clubs, federations and local communities help keep mountain knowledge moving.</p></div></section>
+<section class="section container"><div class="split-section"><div><p class="eyebrow">THE GLOBAL COMMUNITY</p><h2>Find people who share the passion.</h2></div><div><p class="lead">Mountaineering clubs and national or international organizations support education, access, conservation, competitions and community. Their activities differ, so check each organization's current programmes and membership requirements.</p></div></div>
+<div class="org-grid">
+<article><span>PAKISTAN</span><h3>Alpine Club of Pakistan</h3><p>National mountaineering organization based in Islamabad, supporting climbing and mountain activities in Pakistan.</p><a href="https://alpineclub.org.pk/" target="_blank" rel="noopener">Official website ↗</a></article>
+<article><span>INTERNATIONAL</span><h3>UIAA</h3><p>International Climbing and Mountaineering Federation, with work spanning safety, sustainability, access and mountain sports.</p><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">Official website ↗</a></article>
+<article><span>UNITED STATES</span><h3>American Alpine Club</h3><p>A community organization supporting climbers through education, publications, grants and member resources.</p><a href="https://americanalpineclub.org/" target="_blank" rel="noopener">Official website ↗</a></article>
+<article><span>UNITED KINGDOM</span><h3>The Alpine Club</h3><p>A historic mountaineering club with a focus on climbing, mountain culture and exploration.</p><a href="https://www.alpine-club.org.uk/" target="_blank" rel="noopener">Official website ↗</a></article>
+</div>
+<div class="map-heading"><div><p class="eyebrow">EXPLORE THE MAP</p><h2>Organization locations</h2><p>Approximate city locations. Select a marker to view the organization.</p></div><button class="btn btn-outline-dark" id="locateMe">USE MY LOCATION</button></div>
+<div id="orgMap" class="map-box" aria-label="Map showing mountaineering organization locations"></div>
+<p class="map-status" id="mapStatus">Map uses OpenStreetMap data. Your location is only requested if you select the button.</p>
+</section>
+</main>
+<div id="siteFooter"></div>
+<div class="ticker"><div class="ticker-track"><span>▲ ALPINE ASCENTS</span><span id="tickerDate">LOCAL TIME: --</span><span id="tickerLocation">LOCATION: NOT SHARED</span><span>LEAVE NO TRACE</span><span>▲ ALPINE ASCENTS</span><span id="tickerDate2">MOUNTAIN KNOWLEDGE • RESPONSIBLE ADVENTURE</span></div></div>
+<script src="script.js"></script>
+<script src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js' integrity='sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=' crossorigin=''></script>
+</body></html>

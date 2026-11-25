@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 76" role="img" aria-labelledby="title">
+<title id="title">Alpine Ascents</title>
+<g fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M8 57 42 9l24 34 14-19 25 33H8Z" stroke="#E98B42" stroke-width="4"/>
+<path d="m30 57 18-25 17 25M66 57l14-19 13 19" stroke="#F7F9F8" stroke-width="2"/>
+</g>
+<text x="119" y="35" fill="#F7F9F8" font-family="Arial,sans-serif" font-size="25" font-weight="800" letter-spacing="1.3">ALPINE</text>
+<text x="120" y="58" fill="#E98B42" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5">ASCENTS</text>
+</svg>
